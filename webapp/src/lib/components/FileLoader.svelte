@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { loadMidiFile, loadMidiFromUrl, engineState } from '../stores/audio-engine';
+	import { base } from '$app/paths';
 
 	const BUNDLED_SONGS = [
-		{ name: '01 - Dial Tone Lullaby', file: '/midi/01_dial_tone_lullaby.mid' },
-		{ name: '02 - The Machinery of Sunlight', file: '/midi/02_the_machinery_of_sunlight.mid' },
-		{ name: '03 - Beautiful Machines', file: '/midi/03_beautiful_machines.mid' },
-		{ name: '04 - Last Signal Home', file: '/midi/04_last_signal_home.mid' },
-		{ name: '05 - Peripheral Glow', file: '/midi/05_peripheral_glow.mid' }
+		{ name: '01 - Dial Tone Lullaby', file: `${base}/midi/01_dial_tone_lullaby.mid` },
+		{ name: '02 - The Machinery of Sunlight', file: `${base}/midi/02_the_machinery_of_sunlight.mid` },
+		{ name: '03 - Beautiful Machines', file: `${base}/midi/03_beautiful_machines.mid` },
+		{ name: '04 - Last Signal Home', file: `${base}/midi/04_last_signal_home.mid` },
+		{ name: '05 - Peripheral Glow', file: `${base}/midi/05_peripheral_glow.mid` }
 	];
 
 	let dragOver = false;
