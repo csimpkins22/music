@@ -8,6 +8,9 @@ import { writable, derived } from 'svelte/store';
 import { browser } from '$app/environment';
 import type { EngineState, ParsedMidi } from '../engine/types';
 
+// Track whether audio context has been initialized via user gesture
+export const audioInitialized = writable(false);
+
 const defaultState: EngineState = {
 	playback: 'stopped',
 	position: 0,
@@ -37,8 +40,20 @@ async function getEngine() {
 	return engine;
 }
 
+/**
+ * Initialize the audio context. MUST be called directly from a user gesture
+ * (click/touch) handler for mobile browser compatibility.
+ */
+export async function initAudio(): Promise<void> {
+	if (!browser) return;
+	const Tone = await import('tone');
+	await Tone.start();
+	audioInitialized.set(true);
+}
+
 export async function loadMidiFile(data: ArrayBuffer): Promise<void> {
 	if (!browser) return;
+	await initAudio();
 	const { parseMidiFile } = await import('../engine/midi-analysis');
 	const midi = parseMidiFile(data);
 	parsedMidi.set(midi);
@@ -56,6 +71,7 @@ export async function loadMidiFromUrl(url: string): Promise<void> {
 
 export async function play(): Promise<void> {
 	if (!browser) return;
+	await initAudio();
 	const eng = await getEngine();
 	await eng.play();
 }
