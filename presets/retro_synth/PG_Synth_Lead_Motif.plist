@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Synth Lead Motif</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 10: Square wave lead for the rising D-F-A motif. Use with AutoFilter (LFO 0.3Hz sine, 30% depth) and Stereo Delay (1/8 ping pong, 25% feedback, 20% wet).</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Square</string>
+	<key>pulse_width</key>
+	<real>0.5</real>
+	<key>amp_attack</key>
+	<real>0.02</real>
+	<key>amp_decay</key>
+	<real>0.3</real>
+	<key>amp_sustain</key>
+	<real>0.5</real>
+	<key>amp_release</key>
+	<real>0.8</real>
+	<key>filter_type</key>
+	<string>LowPass12</string>
+	<key>filter_cutoff</key>
+	<real>0.65</real>
+	<key>filter_resonance</key>
+	<real>0.15</real>
+	<key>notes</key>
+	<string>Rising motif D-F-A climbing octaves: D3-D4-D5-D6. Velocity escalation: 30-50-75-100. Inverted on 2nd/4th appearances (A-F-D). Counter-melody E5-G5 range.</string>
+</dict>
+</plist>

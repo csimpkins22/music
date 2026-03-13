@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Vocal Melody</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 6: Bright vocal-like sine tone. Forward in mix. Use with Scanner Vibrato (5Hz, 15% depth, 35% mix), ChromaVerb (2.0s, 35% wet), Stereo Delay (dotted 1/8, 20% feedback, 15% wet).</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Sine</string>
+	<key>osc1_fine_tune</key>
+	<real>3</real>
+	<key>amp_attack</key>
+	<real>0.05</real>
+	<key>amp_decay</key>
+	<real>0.2</real>
+	<key>amp_sustain</key>
+	<real>0.6</real>
+	<key>amp_release</key>
+	<real>0.6</real>
+	<key>filter_type</key>
+	<string>LowPass12</string>
+	<key>filter_cutoff</key>
+	<real>0.7</real>
+	<key>filter_resonance</key>
+	<real>0.05</real>
+	<key>notes</key>
+	<string>Range: D4-D6. The "voice" of the song. Verse vel 55-58, Chorus 62-68, Verse 3 (sparse) 30-40. Grace notes on some phrases. C#5->D5 chromatic homecoming in Verse 3 bar 8.</string>
+</dict>
+</plist>

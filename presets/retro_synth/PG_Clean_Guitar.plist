@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Clean Guitar (FM)</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 7: FM bell-like clean guitar. Triangle carrier, sine modulator, low FM amount. Use with Ensemble chorus (1.2Hz, 2.5ms, 30% depth, 25% mix) and ChromaVerb (1.8s, 30% wet).</string>
+	<key>engine</key>
+	<string>FM</string>
+	<key>harmonicity</key>
+	<real>1.5</real>
+	<key>fm_amount</key>
+	<real>2</real>
+	<key>carrier_wave</key>
+	<string>Triangle</string>
+	<key>modulator_wave</key>
+	<string>Sine</string>
+	<key>amp_attack</key>
+	<real>0.01</real>
+	<key>amp_decay</key>
+	<real>0.6</real>
+	<key>amp_sustain</key>
+	<real>0.2</real>
+	<key>amp_release</key>
+	<real>1.2</real>
+	<key>mod_env_attack</key>
+	<real>0.01</real>
+	<key>mod_env_decay</key>
+	<real>0.3</real>
+	<key>mod_env_sustain</key>
+	<real>0.1</real>
+	<key>mod_env_release</key>
+	<real>0.5</real>
+	<key>notes</key>
+	<string>Range: D4-D5. Enters Chorus 1 (bar 25). Sparse ringing chords. Velocity: 52 (Ch1), 50 (V2), 55 (Ch2). 4 fingerpicking pattern variations.</string>
+</dict>
+</plist>

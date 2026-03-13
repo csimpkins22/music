@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Synth Pad (Juno Shimmer)</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 3: Warm harmonic bed. Dual sawtooth +8ct detune for Juno-60 shimmer. Slow attack, long release. Use with Ensemble chorus (0.5Hz, 3.5ms, depth 70%, mix 60%) and ChromaVerb (2.5s decay, 35% wet).</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Sawtooth</string>
+	<key>osc1_fine_tune</key>
+	<real>0</real>
+	<key>osc2_wave</key>
+	<string>Sawtooth</string>
+	<key>osc2_fine_tune</key>
+	<real>8</real>
+	<key>osc_mix</key>
+	<real>0.5</real>
+	<key>amp_attack</key>
+	<real>0.4</real>
+	<key>amp_decay</key>
+	<real>0.8</real>
+	<key>amp_sustain</key>
+	<real>0.7</real>
+	<key>amp_release</key>
+	<real>2.0</real>
+	<key>filter_type</key>
+	<string>LowPass12</string>
+	<key>filter_cutoff</key>
+	<real>0.55</real>
+	<key>filter_resonance</key>
+	<real>0.07</real>
+	<key>notes</key>
+	<string>Range: D4-Bb5. Open triads and add9 chords. Expression CC11 automation: 4-bar breathing curves (60-120). Velocity: 42 (verses), 65 (choruses).</string>
+</dict>
+</plist>

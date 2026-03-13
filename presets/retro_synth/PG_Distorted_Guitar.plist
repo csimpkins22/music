@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Distorted Guitar (FM)</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 8: Aggressive FM fuzz guitar. Sawtooth carrier, square modulator, high FM amount. Use with Distortion (drive 35%, tone 50%) or Pedalboard Fuzz Machine, Channel EQ (-2dB@200Hz, +4dB@1.5kHz, -3dB@4kHz), ChromaVerb (1.2s, 20% wet).</string>
+	<key>engine</key>
+	<string>FM</string>
+	<key>harmonicity</key>
+	<real>2.5</real>
+	<key>fm_amount</key>
+	<real>8</real>
+	<key>carrier_wave</key>
+	<string>Sawtooth</string>
+	<key>modulator_wave</key>
+	<string>Square</string>
+	<key>amp_attack</key>
+	<real>0.01</real>
+	<key>amp_decay</key>
+	<real>0.4</real>
+	<key>amp_sustain</key>
+	<real>0.6</real>
+	<key>amp_release</key>
+	<real>0.8</real>
+	<key>mod_env_attack</key>
+	<real>0.01</real>
+	<key>mod_env_decay</key>
+	<real>0.2</real>
+	<key>mod_env_sustain</key>
+	<real>0.5</real>
+	<key>mod_env_release</key>
+	<real>0.4</real>
+	<key>notes</key>
+	<string>ONLY plays bars 59-74 (Extended Instrumental). Power chords D4-Bb4. Single-note melody bars 67-70: Bb-A/G-A/Bb-G/F/D. Velocity ramps 55 to 80 over 16 bars.</string>
+</dict>
+</plist>

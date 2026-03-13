@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Synth Arpeggio</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 2: Hypnotic 16th-note arpeggio. Sawtooth +4ct detune, snappy attack, long release. Use with AutoFilter (LFO 0.3Hz sine, 30% depth) and Ping Pong Delay (1/8 note, 25% feedback, 20% wet).</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Sawtooth</string>
+	<key>osc1_fine_tune</key>
+	<real>0</real>
+	<key>osc2_wave</key>
+	<string>Sawtooth</string>
+	<key>osc2_fine_tune</key>
+	<real>4</real>
+	<key>osc_mix</key>
+	<real>0.5</real>
+	<key>amp_attack</key>
+	<real>0.02</real>
+	<key>amp_decay</key>
+	<real>0.3</real>
+	<key>amp_sustain</key>
+	<real>0.5</real>
+	<key>amp_release</key>
+	<real>0.8</real>
+	<key>filter_type</key>
+	<string>LowPass24</string>
+	<key>filter_cutoff</key>
+	<real>0.6</real>
+	<key>filter_resonance</key>
+	<real>0.12</real>
+	<key>notes</key>
+	<string>Range: D5-D6. Continuous 16th notes. Velocity: 25 (intro) building to 65+ (instrumental). Add pitch bend automation in instrumental section (±1 to ±4 semitones, sine wave).</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Bass</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 4: Warm triangle bass, mono mode. Subtle filter envelope pluck. Use with Compressor (-20dB threshold, 4:1 ratio, 10ms attack, 100ms release). Minimal reverb (8%), no delay.</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Triangle</string>
+	<key>mono</key>
+	<true/>
+	<key>glide</key>
+	<real>0.005</real>
+	<key>amp_attack</key>
+	<real>0.02</real>
+	<key>amp_decay</key>
+	<real>0.3</real>
+	<key>amp_sustain</key>
+	<real>0.6</real>
+	<key>amp_release</key>
+	<real>0.4</real>
+	<key>filter_type</key>
+	<string>LowPass24</string>
+	<key>filter_cutoff</key>
+	<real>0.4</real>
+	<key>filter_resonance</key>
+	<real>0.0</real>
+	<key>filter_env_attack</key>
+	<real>0.01</real>
+	<key>filter_env_decay</key>
+	<real>0.2</real>
+	<key>filter_env_sustain</key>
+	<real>0.3</real>
+	<key>filter_env_release</key>
+	<real>0.3</real>
+	<key>filter_env_amount</key>
+	<real>2.5</real>
+	<key>notes</key>
+	<string>Range: A1-F2. Verse: D2,F2,C2,G2 whole notes. Chorus: Bb1,F2,A1,D2. Instrumental descending: D2-C2-Bb1-Bb1-A1-A1. Chromatic walk-ups between chords.</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PG - Strings (Retro Synth fallback)</string>
+	<key>description</key>
+	<string>Peripheral Glow Track 9 fallback: If not using Studio Strings, use this Retro Synth patch. Sawtooth +5ct detune, very slow attack (0.8s bow). Use with Ensemble (0.8Hz, 3ms, 40% depth, 30% mix) and ChromaVerb (3.0s, 40% wet, Hall). Prefer Logic's Studio Strings if available.</string>
+	<key>engine</key>
+	<string>Analog</string>
+	<key>osc1_wave</key>
+	<string>Sawtooth</string>
+	<key>osc1_fine_tune</key>
+	<real>0</real>
+	<key>osc2_wave</key>
+	<string>Sawtooth</string>
+	<key>osc2_fine_tune</key>
+	<real>5</real>
+	<key>osc_mix</key>
+	<real>0.5</real>
+	<key>amp_attack</key>
+	<real>0.8</real>
+	<key>amp_decay</key>
+	<real>0.5</real>
+	<key>amp_sustain</key>
+	<real>0.7</real>
+	<key>amp_release</key>
+	<real>2.0</real>
+	<key>notes</key>
+	<string>Range: D5-F6 (high, ethereal). Enters Chorus 1 (bar 25). Expression CC11 bell-curve swells over 2-bar phrases (50-120). Velocity: 42 (Ch1), 50 (Ch2), 45-70 (Instrumental).</string>
+</dict>
+</plist>
