@@ -79,7 +79,7 @@ Pull the 16' and 8' drawbars full or near-full for a dark, warm fundamental. Kee
 - Alternatively, set rotor to Slow for very gentle movement
 
 **Insert Effects (on the channel strip):**
-1. **Modulator** (Tremolo mode) — Rate: 5 Hz, Depth: 10%, to simulate the vibrato `wet: 0.4`
+1. **Tremolo** (Modulation → Tremolo) — Rate: 5 Hz, Depth: 10%, to simulate the vibrato `wet: 0.4`. Use symmetrical mode for even amplitude wobble.
 2. **ChromaVerb** — Decay: 2.0s, Wet: 30%, Dark preset. Warm hall reverb.
 
 **Volume:** -14 dB (pushed back in the mix — this is felt, not heard prominently)
@@ -129,11 +129,12 @@ If using dual oscillators:
 - Resonance: 10–15%
 
 **Insert Effects Chain:**
-1. **Modulator** (set to Auto Filter mode):
+1. **AutoFilter** (Filter → AutoFilter):
    - Rate: 0.3 Hz
-   - Base Frequency: 400 Hz
+   - Frequency: 400 Hz
    - Range: 2.5 octaves
-   - Depth/Wet: 30%
+   - Mix: 30%
+   - Use LFO modulation with sine wave shape for smooth sweeping
 2. **Delay Designer** or **Stereo Delay** (Ping Pong mode):
    - Delay Time: 1/8 note (synced to tempo)
    - Feedback: 25%
@@ -330,10 +331,11 @@ Use Logic's **Studio Piano** or **Steinway Grand** from the built-in library.
 - Resonance: 5%
 
 **Insert Effects Chain:**
-1. **Modulator** (Vibrato mode):
+1. **Scanner Vibrato** (Modulation → Scanner Vibrato):
    - Rate: 5 Hz
    - Depth: 15%
    - Mix: 35%
+   - Use a gentle, even vibrato — no chorus component
 2. **ChromaVerb:**
    - Decay: 2.0s
    - Wet: 35%
@@ -536,9 +538,10 @@ Use Logic's **Studio Strings** for realistic ensemble, or **Alchemy** with a Str
 - Resonance: 15% (slight peak for presence)
 
 **Insert Effects Chain:**
-1. **Modulator** (Auto Filter):
+1. **AutoFilter** (Filter → AutoFilter):
    - Rate: 0.3 Hz
    - Depth: 30%
+   - Sine LFO shape, gentle sweep for movement without being obvious
 2. **Stereo Delay** (Ping Pong):
    - Delay Time: 1/8 note
    - Feedback: 25%
