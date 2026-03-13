@@ -48,11 +48,12 @@ export function parseMidiFile(midiData: ArrayBuffer): ParsedMidi {
 			}
 		}
 
-		// Pitch bends
-		const pitchBends: PitchBendEvent[] = (track.pitchBends || []).map((pb) => ({
-			value: typeof pb === 'object' && 'value' in pb ? (pb as { value: number; time: number; ticks: number }).value : 0,
-			time: typeof pb === 'object' && 'time' in pb ? (pb as { value: number; time: number; ticks: number }).time : 0,
-			ticks: typeof pb === 'object' && 'ticks' in pb ? (pb as { value: number; time: number; ticks: number }).ticks : 0
+		// Pitch bends — @tonejs/midi provides {time, ticks, value} where value is -1 to 1
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const pitchBends: PitchBendEvent[] = ((track as any).pitchBends || []).map((pb: any) => ({
+			value: pb.value ?? 0,
+			time: pb.time ?? 0,
+			ticks: pb.ticks ?? 0
 		}));
 
 		// Analysis

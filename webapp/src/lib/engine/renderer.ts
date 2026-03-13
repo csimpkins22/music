@@ -192,10 +192,11 @@ export class PerformanceEngine {
 						// Could extend release time when pedal is down
 					} else if (ccNum === 11) {
 						// Expression — map to volume automation
+						// @tonejs/midi CC values are already normalized 0-1
 						const id = transport.schedule((scheduledTime) => {
 							try {
-								const volDb = Tone.gainToDb(cc.value / 127);
-								// Subtle expression — don't go below -20dB
+								const exprGain = Math.max(0.01, cc.value); // 0-1
+								const volDb = Tone.gainToDb(exprGain);
 								const mappedVol = Math.max(-20, volDb);
 								channel.channel.volume.setValueAtTime(
 									channel.state.volume + mappedVol * 0.3,
