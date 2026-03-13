@@ -130,11 +130,14 @@ If using dual oscillators:
 
 **Insert Effects Chain:**
 1. **AutoFilter** (Filter → AutoFilter):
-   - Rate: 0.3 Hz
-   - Frequency: 400 Hz
-   - Range: 2.5 octaves
-   - Mix: 30%
-   - Use LFO modulation with sine wave shape for smooth sweeping
+   - **Filter:** Cutoff: 50%, Resonance: 10%, 4-Pole Lowpass, 12dB slope
+   - **LFO:** Rate: 0.3 Hz, Waveform: Sine (3rd button), Stereo Phase: 0°, Retrigger: Off
+   - **Filter → LFO slider:** ~30% (controls how much the LFO sweeps the cutoff)
+   - **Filter → Envelope slider:** 0% (no envelope modulation)
+   - **Envelope:** Leave disabled (power button off) — we only want the LFO sweep
+   - **Distortion:** Off (Pre Filter: 0%, Post Filter: 0%)
+   - **Dry Signal:** 0% (fully wet through the filter)
+   - This creates a slow, smooth filter sweep that adds gentle movement to the arpeggio
 2. **Delay Designer** or **Stereo Delay** (Ping Pong mode):
    - Delay Time: 1/8 note (synced to tempo)
    - Feedback: 25%
@@ -539,9 +542,13 @@ Use Logic's **Studio Strings** for realistic ensemble, or **Alchemy** with a Str
 
 **Insert Effects Chain:**
 1. **AutoFilter** (Filter → AutoFilter):
-   - Rate: 0.3 Hz
-   - Depth: 30%
-   - Sine LFO shape, gentle sweep for movement without being obvious
+   - **Filter:** Cutoff: 55%, Resonance: 15%, 4-Pole Lowpass, 12dB slope
+   - **LFO:** Rate: 0.3 Hz, Waveform: Sine (3rd button), Retrigger: Off
+   - **Filter → LFO slider:** ~30% (subtle sweep amount)
+   - **Filter → Envelope slider:** 0%
+   - **Envelope:** Disabled
+   - **Distortion:** Off
+   - **Dry Signal:** 0%
 2. **Stereo Delay** (Ping Pong):
    - Delay Time: 1/8 note
    - Feedback: 25%
